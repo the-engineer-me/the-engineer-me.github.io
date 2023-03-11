@@ -1,5 +1,5 @@
-Here you can say lots of fun things about your site.
+I'm Evgenii Kazmiruk, an experienced software engineer and technology executive with over a decade of industry experience. I've worked in companies of varying sizes, from small startups to large corporations, and have held hands-on engineering roles as well as senior management positions, including CTO at BigMused and VP of Engineering at Supermetrics.
 
-Maybe say a some things about yourself.
+My main background is in backend development, and I specialize in using Python and TypeScript to build scalable and robust systems. I also have experience with frontend development using React. Additionally, I have extensive experience working with databases such as PostgreSQL, Redis, MySQL, and MongoDb.
 
-Or maybe what you plan to blog about.
+I hold a degree in artificial intelligence and computer vision systems, which has given me a strong foundation in machine learning and data analysis. I'm passionate about using technology to solve complex problems and I'm always exploring new ideas and innovations in the field.
