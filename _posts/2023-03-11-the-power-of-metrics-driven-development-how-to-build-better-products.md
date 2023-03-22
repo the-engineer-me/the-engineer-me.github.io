@@ -42,15 +42,15 @@ Overall, adopting a metrics-driven development approach can help organizations c
 
 To build a successful metrics-driven development process, it's essential to start with a clear problem statement. Identify the specific and actionable problem you're trying to solve and define success criteria that can be measured with metrics. This will give you a clear goal to work towards and help you track progress effectively.
 
-Next, you need to define the right metrics that will help you measure progress towards your success criteria. These metrics should be relevant, actionable, and aligned with your business objectives. By choosing the right metrics, you'll be able to focus on what really matters and avoid getting bogged down in irrelevant data.
+Next, it's important to identify and define the appropriate metrics. The "right" metrics are those that are relevant, actionable, and aligned with your business objectives. This means that you need to carefully consider what data you want to collect and analyze, and ensure that it provides meaningful insights into the performance of your product or project.
 
-Once you have defined the metrics you need, it's time to collect and analyze the data. This involves collecting data on the relevant metrics and analyzing it to identify patterns and trends. Use this data to track progress towards your success criteria and identify areas for improvement.
+When it comes to choosing the right metrics, less is often more. It's better to focus on a few key metrics that are truly impactful and actionable, rather than trying to measure everything. This helps you avoid getting bogged down in irrelevant data and instead stay focused on what really matters.
 
 The next step is to use metrics to inform decisions. Use your metrics to make data-driven decisions about how to improve your product or process. A/B testing and other experiments can help you test hypotheses and validate improvements.
 
 It's also important to communicate your metrics and progress towards your success criteria to stakeholders. Use data visualization and storytelling techniques to make the data more accessible and understandable.
 
-To continuously improve your product or process, you need to use metrics to iterate and improve. Set up a feedback loop to collect feedback from users and incorporate it into your development process. This will help you identify areas for improvement and make data-driven decisions about what changes to make.
+To achieve ongoing improvement of your product or process, it's crucial to use metrics in an iterative manner. Establish a feedback loop to gather input from users and incorporate it into your development process. This approach will enable you to identify areas that require enhancement and make data-driven decisions about which changes to implement.
 
 Finally, cultivate a metrics-driven culture by encouraging a culture of data-driven decision-making and experimentation. Make sure everyone on the team understands the importance of metrics and how to use them effectively. By following these steps, you can build a metrics-driven development process that helps you make data-driven decisions, improve your product or process, and achieve your business objectives.
 
@@ -64,31 +64,31 @@ A team was working on a trigger service responsible for initiating a process whe
 
 ![Hybrid triggers dashboard](/img/2023-03-11-the-power-of-metrics-driven-development-how-to-build-better-products/hybrid-triggers-dashboard.png "Hybrid triggers dashboard")
 
-To solve these issues, the team adopted a metrics-driven approach, starting by identifying the most critical errors and focusing on fixing them. They worked on one metric at a time, which helped them reduce the noise in the logs and address the most pressing issues. By using metrics to measure and monitor the service's performance, the team was able to achieve a success rate of almost 99.6% after several iterations.
+To solve these issues, the team adopted a metrics-driven approach, starting by identifying the most critical errors and focusing on fixing them. They worked on one metric at a time, which helped the team reduce noise in the logs and address the most pressing issues. By using metrics to measure and monitor the service's performance, the team was able to achieve a success rate of almost 99.6% after several iterations.
 
-Despite this success, there was still a remaining 0.4% of issues that would require significant effort and resources to fix. To make an informed decision, the team used technical, product, and business metrics to estimate the costs and benefits of fixing these remaining issues. After analyzing the metrics, the team decided to rely on a retry mechanism, which would be more cost-effective than attempting to fix the remaining issues.
+Despite this success, there remained 0.4% of issues that would require significant effort and resources to fix. To make an informed decision, the team used technical, product, and business metrics to estimate the costs and benefits of fixing these remaining issues. After analyzing the metrics, the team determined that a simple retry mechanism addressed the remaining issues.
 
 To ensure the service's reliability, the team implemented a service-level objective (SLO) to monitor the trigger service's performance. The SLO defined the target reliability level and provided a framework for monitoring the service's stability and error rates. By using metrics to measure and monitor the service's performance regularly, the team ensured that it met the SLO's requirements.
 
 ### Improving Conversion Rates
 
-Anoter team was working on a new product that had not yet been launched, and they had no customers. The only feedback they had was from customer demos. The team knew that metrics would be critical in determining whether the product was successful, but they were struggling to identify the right metrics to use.
-
-Initially, they focused on tracking the number of new users, but they soon realized that the number was so slow that any fluctuations would affect the metric significantly. To address this issue, the team decided to make their metrics more granular and rely more on conversions between steps rather than on some absolute metrics.
+Another team was working on a new product that had just been launched and therefore had few customers. The only feedback they could obtain was through customer demos. The team knew that metrics would be critical in determining whether the product was successful, but they were struggling to identify the right metrics to use. Initially, they focused on tracking the number of new users, but they soon realized that the number was so low that any fluctuations would significantly affect the metric. To address this issue, the team decided to make their metrics more granular and examined the steps on which they could add metrics, and then gather the conversions between those steps.
 
 ![Moday onboarding flow](/img/2023-03-11-the-power-of-metrics-driven-development-how-to-build-better-products/monday-onboarding-flow.png "Moday onboarding flow")
 
-By doing so, the team was able to get a better understanding of how users interacted with the product and identify areas where they could improve the user experience. They focused on experimenting with the biggest conversion drops to see if they could improve the product in those areas.
+By doing so, the team was able to gain a better understanding of how users interacted with the product and identify areas where they could improve the user experience. They focused on experimenting with the biggest conversion drops to see if they could improve the product in those areas.
 
-This example highlights the importance of adapting your metrics approach to your specific situation. Metrics-driven development is not just a strict algorithm; you need to identify the right approach for gathering and comparing data in your particular case. By doing so, you can make informed decisions that lead to more effective and successful products.
+This example highlights the importance of adapting your metrics approach to your specific situation. Metrics-driven development is never a “strict” algorithm; you need to identify the right approach for gathering and comparing data in your particular use case. By doing so, you can make informed decisions that lead to more effective and successful products.
 
 ### The Pitfalls of Not Using Metrics-Driven Development
 
 ![LS auth retro](/img/2023-03-11-the-power-of-metrics-driven-development-how-to-build-better-products/ls-auth-retro.png "LS auth retro")
 
-While metrics-driven development can be a powerful tool for improving products, it's essential to use it from the beginning to avoid significant problems later. Consider the case of an engineering team tasked with updating the authentication flow for a product. Initially, they failed to plan for testing, success metrics, or business implications, and lacked a clear understanding of the project's potential impacts. As a result, when the new authentication flow was released to a few connectors and trials were conducted, the results indicated that the old authentication was performing better. The team tried various attempts to identify the root cause of the problem and make changes, but the old authentication continued to perform better.
+While metrics-driven development can be a powerful tool for improving products, it's essential to use it from the beginning to avoid significant problems later. Consider the case of an engineering team tasked with updating the authentication flow for a product.
 
-Later, the team decided to implement a metrics-driven approach, but by then, it was too late. The opportunity cost of continuing to try to fix the new authentication was considered too high, and the team had a discussion with key stakeholders before rolling back all connectors and shelving the project. Had the team adopted a metrics-driven approach from the start, they would have identified and measured the key metrics that would have helped them understand how the new authentication flow would perform. This would have included identifying the performance of the old flow, understanding the user flow and backend processes, and defining success metrics to measure the impact of the new authentication flow.
+Initially, they failed to plan for testing, success metrics, or business implications, and lacked a clear understanding of the project's potential impacts. As a result, when the new authentication flow was released to a few parts of the products and trials were conducted, the results indicated that the old authentication was performing better. The team tried various attempts to identify the root cause of the problem and make changes, but the old authentication continued to perform better.
+
+Later, the team decided to implement a metrics-driven approach, but by then, it was too late. The opportunity cost of continuing to try to fix the new authentication was considered too high, and the team had a discussion with key stakeholders before rolling back all the changes and shelving the project. Had the team adopted a metrics-driven approach from the start, they would have identified and measured the key metrics that would have helped them understand how the new authentication flow would perform. This would have included identifying the performance of the old flow, understanding the user flow and backend processes, and defining success metrics to measure the impact of the new authentication flow. Metrics-driven development is not always about taking a project to success but also important in stopping projects before they waste too much time or resources.
 
 ## Conclusion
 
@@ -103,6 +103,6 @@ There are several benefits to using metrics-driven development, including:
 
 To adopt metrics-driven development, teams need to define and prioritize key metrics that align with their product goals. These metrics should be specific, measurable, achievable, relevant, and time-bound (SMART).
 
-Once the metrics are defined, they should be continuously measured and tracked. This includes setting up systems to collect data, analyzing the data to identify trends, and using the data to drive decision-making.
+After defining the metrics, it's important to regularly measure and track them. This involves establishing data collection systems, analyzing the data for trends, and leveraging the insights to inform decision-making.
 
-In conclusion, metrics-driven development is a valuable methodology for product development teams. It helps ensure that development decisions are based on data and metrics rather than subjective opinions or assumptions. By adopting this approach, teams can improve collaboration, make better decisions, and continuously improve their products. The failure of the authentication project is a clear example of the importance of metrics-driven development and the risks of not using this approach.
+In summary, metrics-driven development is a beneficial methodology for product development teams as it encourages decision-making based on data rather than subjective opinions. Adopting this approach can enhance collaboration, facilitate informed decisions, and promote continuous product improvement.
